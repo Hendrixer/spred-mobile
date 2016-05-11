@@ -6,6 +6,7 @@
     }
   },
   "rules": {
-    "comma-dangle": 0
+    "comma-dangle": 0,
+    "react/prop-types": 0
   }
 }

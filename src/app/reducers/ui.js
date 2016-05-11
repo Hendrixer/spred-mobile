@@ -3,7 +3,7 @@ import {
   FINISH_LOAD
 } from '../actions/actionTypes';
 
-export const user = (state = {}, { type, payload }) => {
+export const ui = (state = {}, { type, payload }) => {
   switch (type) {
     case START_LOAD:
       return state;

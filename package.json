@@ -3,10 +3,13 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "sudo react-native run-android",
+    "ios": "sudo react-native run-ios"
   },
   "dependencies": {
     "lodash": "^4.12.0",
+    "pubnub": "^3.14.5",
     "react": "^0.14.8",
     "react-native": "^0.25.1",
     "react-redux": "^4.4.5",
